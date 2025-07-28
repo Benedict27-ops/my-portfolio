@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a1ef1ae487.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Benedict</span><br> from Nairobi</h1>
+            </div>
+        </div> 
+    </div>
+    <!-- About Page -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/software.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I grew up in Bremen, Germany, in a family of book-crazy women.<br> 
+                       My career in advertising brought me to New York City in my early twenties.<br> 
+                       After working for several large ad agencies in the city,<br>
+                       I left the rat race to be home with my three spirited (read:<br> 
+                       loud and strong-willed) children. Being a full-time mom is the best job in the world.<br> 
+                       It’s also the hardest and not always the most fulfilling.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>TIMS AND ETIMS</span><br>Consulting and support</li>
+                            <li><span>IT CONSULTANCY</span><br>Hardware and software</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2022-2022</span><br>Computech</li>
+                            <li><span>2022-2023</span><br>Keydata System</li>
+                            <li><span>2023-2024</span><br>Computech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2005-2012</span><br>Kemeloi Day Primary</li>
+                            <li><span>2012-2016</span><br>Kemeloi boys</li>
+                            <li><span>2017-2021</span><br>pc Technical trai</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX</h2>
+                    <p>ysafutd gydytgisdgisda sgid</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shop"></i>
+                    <h2>TIMS ETIMS</h2>
+                    <p>ysafutd gydytgisdgisda sgid</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>IT CONSULTANCY</h2>
+                    <p>ysafutd gydytgisdgisda sgid</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----portfolio----->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My projects</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pro 1.jpeg">
+                    <div class="layer">
+                        <h3>web based point of sale</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pro 2.jpeg">
+                    <div class="layer">
+                        <h3>Tims intergration</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pro 2.jpeg">
+                    <div class="layer">
+                        <h3>etims intergration</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ratione!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="a" class="btn">see more</a>
+        </div>
+    </div>
+    <!----contact-->
+    <div id="contact">
+        <div class="container">
+           <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>ben@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0791801278</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/inv.pdf" download class="btn btn2">download cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+           </div> 
+        </div>
+        <div id="copyright">
+            <p>copyright @Benedict<i class="fa-solid fa-heart"></i> made by benjo co</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            document.querySelector(`[onclick="opentab('${tabname}')"]`).classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <
